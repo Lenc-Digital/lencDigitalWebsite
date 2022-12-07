@@ -1,0 +1,18 @@
+:root {
+    --purple: #3772FF;
+    --yellow: #FDCA40;
+    --red: #DF2935;
+    --black: #080708;
+    --white: #fff;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+}
