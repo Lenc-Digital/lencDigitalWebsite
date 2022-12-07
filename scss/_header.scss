@@ -1,0 +1,32 @@
+.header {
+
+    padding: 24px 20px;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between ;
+
+        .options {
+            display: flex;
+            align-items: center;
+
+        }
+
+        .option {
+            a {
+            color: var(--white);
+            font-weight: 500;
+            font-size: 18px;
+
+            }
+
+            & + li {
+                margin-left: 36px;
+            }
+
+        }
+
+    }
+
+}

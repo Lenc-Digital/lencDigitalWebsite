@@ -1,0 +1,45 @@
+.container {
+    max-width: 1216px;
+    margin: 0 auto;
+}
+
+.btnStandart {
+    padding: 16px 52px;
+    background-color: var(--black);
+    color: var(--yellow);
+    font-weight: 600;
+    border-radius: 12px;
+}
+
+.separatorSection {
+    background-color: var(--white);
+    padding: 12px 20px;
+    text-align: center;
+
+    span {
+        color: var(--red);
+        font-family: 'moldiv';
+        font-size: 24px;
+    }
+}
+
+.purple {
+    color: var(--purple);
+}
+
+.red {
+    color: var(--red);
+}
+
+.gradientYellowRed {
+
+background: -webkit-linear-gradient(left,  #fdca40 0%,#df2935 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+.gradientYellowBlue {
+    background: -webkit-linear-gradient(left,  #fdca40 0%,#3772FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;}

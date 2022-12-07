@@ -1,0 +1,64 @@
+.space {
+
+    padding: 84px 20px;
+    background-color: var(--yellow);
+
+    &__wrapper {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .leftSide {
+
+            .titleBox {
+
+                display: flex;
+                align-items: center;
+
+                > h2 {
+                    font-size: 36px;
+                    color: var(--black);
+                    max-width: 196px;
+                    line-height: 32px;
+                }
+
+                > p {
+                    color: var(--black);
+                    margin: 0 36px;
+                    font-weight: 900;
+                }
+            }
+
+            > p {
+                max-width: 493px;
+                text-align: justify;
+                color: var(--black);
+                font-size: 18px;
+                margin-top: 26px;
+            }
+
+            .topics {
+
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 48px;
+
+                .topic {
+                    padding: 6px 18px;
+                    background-color: var(--black);
+                    border-radius: 12px;
+                    font-weight: 600;
+                    font-size: 16px;
+
+                    & + div {
+                        margin-left: 8px;
+                    }
+
+
+                }
+            }
+        }
+
+    }
+}

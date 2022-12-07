@@ -19,30 +19,34 @@
 
     <section class="subheader">
         <div class="container">
-            <img src="./assets/starburst.svg" alt="" srcset="">
-            <p>NÓS <strong>EVOLUIMOS</strong> MARCAS, CRIAMOS <strong>EXPERIÊNCIAS</strong>, <strong>RESOLVEMOS</strong>
-                PROBLEMAS.</p>
-            <img src="./assets/starburst.svg" alt="" srcset="">
+            <div class="subheader__wrapper">
+                <img src="./assets/starburst.svg" alt="" srcset="">
+                <p>NÓS <strong>EVOLUIMOS</strong> MARCAS, CRIAMOS <strong>EXPERIÊNCIAS</strong>,
+                    <strong>RESOLVEMOS</strong>
+                    PROBLEMAS.
+                </p>
+                <img src="./assets/starburst.svg" alt="" srcset="">
+            </div>
         </div>
     </section>
 
-    <header>
+    <header class="header">
         <div class="container">
             <div class="header__wrapper">
                 <div class="logo">
                     <img src="./assets/logoLencDigi.svg" alt="" srcset="">
                 </div>
                 <ul class="options">
-                    <li><a href="">
+                    <li class="option"><a href="">
                             Sobre
                         </a></li>
-                    <li><a href="">
+                    <li class="option"><a href="">
                             Etapas
                         </a></li>
-                    <li><a href="">
+                    <li class="option"><a href="">
                             Projetos
                         </a></li>
-                    <li><a href="">
+                    <li class="option"><a href="">
                             Contato
                         </a></li>
                 </ul>
@@ -50,14 +54,16 @@
         </div>
     </header>
 
-    <main>
+    <main class="main">
         <div class="container">
             <div class="main__wrapper">
                 <img src="./assets/timeToUpgrade.svg" alt="" srcset="">
                 <h1>EVOLUA O NÍVEL DA SUA EMPRESA E DESTAQUE-SE NO MERCADO</h1>
-                <a class="btnStandart">
-                    SOLICITAR ORÇAMENTO
-                </a>
+                <div class="wrapperBtn">
+                    <a class="btnStandart">
+                        SOLICITAR ORÇAMENTO
+                    </a>
+                </div>
                 <p>A lenc Digital foi criada para aproximar você da excelência, Indo do design ate cógido. </p>
             </div>
         </div>
@@ -65,13 +71,13 @@
 
     <div class="separatorSection">
         <div class="container">
-            GROW WITH US. ✌
+            <span>GROW WITH US. ✌</span>
         </div>
     </div>
 
     <section class="steps">
         <div class="container">
-            <h2><strong>Etapas</strong> de Produção</h2>
+            <h2><strong>Etapas</strong> de<br> Produção</h2>
             <div class="steps__wrapper">
 
                 <div class="step">
@@ -123,9 +129,11 @@
 
     <section class="ourWork">
         <div class="container">
-            <h2>Nosso Trabalho</h2>
             <div class="ourWork__wrapper">
                 <div class="leftSide">
+                    <h2>Nosso <br>
+                        <strong>Trabalho</strong>
+                    </h2>
                     <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                         the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
                         of type and scrambled it to make a type specimen book. It has survived not only five centuries,
@@ -169,17 +177,19 @@
                         the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
                         of type and scrambled it to make a type specimen book.</p>
                     <div class="topics">
-                        <div class="topic">
+                        <div class="topic purple">
                             Front-end
                         </div>
                         <div class="topic">
                             Back-end </div>
-                        <div class="topic">
-                            UI/UX </div>
+                        <div class="topic ">
+                            <p class="gradientYellowRed">UI/UX</p>
+                        </div>
                         <div class="topic">
                             Mobile </div>
                         <div class="topic">
-                            Branding </div>
+                            <p class="gradientYellowBlue">Branding</p>
+                        </div>
 
                     </div>
                 </div>
@@ -192,27 +202,35 @@
 
     <div class="separatorSection">
         <div class="container">
-            WE'RE WAITING FOR YOU. ✌️
+            <span>
+
+                WE'RE WAITING FOR YOU. ✌️
+
+            </span>
         </div>
     </div>
 
     <section class="contact">
         <div class="container">
-            <h3>Já decidiu seu futuro?</h3>
-            <p>Clique abaixo e você será redirecionado para nosso atendimento.</p>
-            <a href="" class="btnStardart">SOLICITAR ORÇAMENTO</a>
+            <div class="contact__wrapper">
+                <h3>Já decidiu seu futuro?</h3>
+                <p>Clique abaixo e você será redirecionado para nosso atendimento.</p>
+                <div class="btnWrapper">
+                    <a href="" class="btnStandart">SOLICITAR ORÇAMENTO</a>
+                </div>
+            </div>
         </div>
     </section>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
             <div class="footer__wrapper">
                 <div class="footerCeil">
                     <img src="./assets/lencDigitalBackground.svg" alt="" srcset="">
                     <div class="by">
-                        desenvolvido por
+                        <p>desenvolvido por</p>
+                        <a href=""><img src="./assets/devMarlonLogo.svg" alt=""></a>
                     </div>
-                    <a href=""><img src="./assets/devMarlonLogo.svg" alt=""></a>
                 </div>
                 <div class="media">
                     <div class="p">© 2023 Lenc Digital.</div>
@@ -222,10 +240,15 @@
                         <a href=""><img src="./assets/instagramIcon.svg" alt="" srcset=""></a>
                     </div>
                 </div>
-                <div class="rights">We are a Studio specialist in visual identities around more at 5 years creating
-                    brands, making stories and selling experiences. Our objective is make visual that make real
-                    diference in the world. visuals that work, visuals that add, visuals that mark. - Design is
-                    everything.</div>
+                <div class="rights">
+                    <p>
+                        We are a Studio specialist in visual identities around more at 5 years creating
+                        brands, making stories and selling experiences. Our objective is make visual that make real
+                        diference in the world. visuals that work, visuals that add, visuals that mark. - Design is
+                        everything.
+                    </p>
+
+                </div>
             </div>
         </div>
     </footer>

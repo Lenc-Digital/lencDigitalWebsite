@@ -1,0 +1,17 @@
+.subheader {
+    background-color: var(--black);
+    align-items: center;
+    padding: 12px 20px;
+    width: 100%;
+
+    &__wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        > p {
+            margin: 0 12px;
+        }
+    }
+}
